@@ -1,10 +1,10 @@
 # Smart-India-Hackathon-20
-The problem statement is ‘Detection of child predators/ cyber harassers on social media' posed by the Bureau of Police Research and Development.
+The problem statement is *Detection of child predators/ cyber harassers on social media* posed by the Bureau of Police Research and Development.
 
 The system consists of 2 major functionalities:
 
-Age Detection for filtering out minors(using DNN) and
-Predicting for grooming or non grooming charecteristics in the conversations between minors and adults(using svm classifier).
+* Age Detection for filtering out minors(using DNN) 
+* Predicting for grooming or non grooming charecteristics in the conversations between minors and adults(using svm classifier).
 
 1.fchatroom.py: This module has the chatroom code and performs all the Backend operations including the DB commands.
 
@@ -21,3 +21,10 @@ Predicting for grooming or non grooming charecteristics in the conversations bet
 7.svmtest.py: For testing the svm classifier.
 
 8.bigdic.dic: The dictionary of english words, including slang words and their corresponding stages.
+
+# Technologies Used
+* Keras, Sklearn
+* Pandas, NLTK, liwc
+* Flask
+* MySQL
+* HTML, CSS, Javascript
