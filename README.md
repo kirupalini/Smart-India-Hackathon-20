@@ -23,6 +23,7 @@ The system consists of 2 major functionalities:
 8.bigdic.dic: The dictionary of english words, including slang words and their corresponding stages.
 
 # Technologies Used
+# ![](https://img.shields.io/badge/Language-Python-informational?style=flat&logo=data:image/svg%2bxml;base64,<BASE64_DATA>)
 * Keras, Sklearn
 * Pandas, NLTK, liwc
 * Flask
